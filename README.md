@@ -17,10 +17,10 @@ In the worst case open an issue and let me know.
 ## Supported devices
 Tested:
 -  Nuphy Air96 v2
+-  Nuphy Air60 v2
 
 Untested (Should work I dont have one tho):
 -  Nuphy Air75 v2
--  Nuphy Air60 v2
 -  NuPhy Gem80
 -  NuPhy Halo75
 -  NuPhy Halo96
