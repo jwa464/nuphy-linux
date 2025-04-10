@@ -18,6 +18,7 @@ In the worst case open an issue and let me know.
 Tested:
 -  Nuphy Air96 v2
 -  Nuphy Air60 v2
+-  Nuphy Kick75
 
 Untested (Should work I dont have one tho):
 -  Nuphy Air75 v2
