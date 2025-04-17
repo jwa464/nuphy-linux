@@ -40,23 +40,28 @@ Untested (Should work I dont have one tho):
    ```bash
    git clone https://github.com/Z3R0-CDS/nuphy-linux
    ```
-   
+
 2. **Navigate to the Repository:**
    ```bash
    cd nuphy-linux
    ```
 
-3. **Copy the Udev Rule:**
+3. **Install the Udev Rule:**
+
+   Manual
    ```bash
    sudo cp nuphy.rules /etc/udev/rules.d/
    ```
-
-4. **Reload Udev Rules:**
    ```bash
    sudo udevadm control --reload-rules && sudo udevadm trigger
    ```
 
-5. **Verify Installation:**
+   Automated
+   ```bash
+   ./install_rules.sh
+   ```
+
+4. **Verify Installation:**
    Connect your Nuphy device and verify if it's detected correctly by the [via](https://usevia.app/) application.
    Make sure to follow the guide of the [Official website](https://nuphy.com/pages/via-usage-guide-for-nuphy-keyboards) to ensure its working as intended.
    Also keep in mind it might be required to reopen the browser or try in a private tab if you attempted to use via before.
