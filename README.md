@@ -40,13 +40,23 @@ Untested (Should work I dont have one tho):
    ```bash
    git clone https://github.com/Z3R0-CDS/nuphy-linux
    ```
-   
+
 2. **Navigate to the Repository:**
    ```bash
    cd nuphy-linux
    ```
 
 3. **Install the Udev Rule:**
+
+   Manual
+   ```bash
+   sudo cp nuphy.rules /etc/udev/rules.d/
+   ```
+   ```bash
+   sudo udevadm control --reload-rules && sudo udevadm trigger
+   ```
+
+   Automated
    ```bash
    ./install_rules.sh
    ```
