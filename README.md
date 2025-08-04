@@ -27,6 +27,9 @@ Untested (Should work I dont have one tho):
 -  NuPhy Halo96
 -  NuPhy Nos75
 
+Tested by contributors:
+- NuPhy Halo65 HE (IcarusSosie)
+
 ## Installation
 
 ### Prerequisites
