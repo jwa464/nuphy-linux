@@ -29,6 +29,7 @@ Untested (Should work I dont have one tho):
 
 Tested by contributors:
 - NuPhy Halo65 HE (IcarusSosie)
+- NuPhy Air75 v3 (jwa464)
 
 ## Installation
 
