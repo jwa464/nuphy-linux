@@ -21,6 +21,7 @@
 # NuPhy Kick75    -> 1026
 # NuPhy Dongle    -> 2620
 # Nuphy Halo65 HE -> 6112
+# NuPhy Air75 v3  -> 1028
 
 SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTR{idVendor}=="19f5", ATTR{idProduct}=="3265", MODE="0666"
 SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTR{idVendor}=="19f5", ATTR{idProduct}=="3245", MODE="0666"
